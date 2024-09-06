@@ -25,3 +25,12 @@ Content-Type: application/json
   "content": "Teste de notificação",
   "category": "Teste"
 }
+
+###
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+  "email": "luismiguel@gmail.com",
+  "password": "123456"
+}
