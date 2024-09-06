@@ -1,0 +1,27 @@
+GET http://localhost:3333/
+
+###
+GET http://localhost:3333/users
+
+###
+GET http://localhost:3333/notifications
+
+
+###
+POST http://localhost:3333/cadastro
+Content-Type: application/json
+
+{
+  "name": "Luis",
+  "email": "luismiguel@gmail.com",
+  "password": "123456"
+}
+
+###
+POST http://localhost:3333/send-notifications
+Content-Type: application/json
+
+{
+  "content": "Teste de notificação",
+  "category": "Teste"
+}
